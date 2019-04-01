@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Quiz</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+ 
+</head>
+ 
+
+
+ 
+<body>
+    <div id= "showTime">Your Quiz is timed (15 minutes)</div>
+    <button id="startQuiz">Start QUIZ</button>
+    <button id="endQuiz">End QUIZ</button>
+             
+<div>
+        <p><span id="grade"></span></p>
+        <p><span id="grade2"></span></p>
+         
+<div>
+
+
+<form id="form1">
+
+        <h2>Which is the best description of a variable?</h2>
+        <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Identifies a portion of a string.</label>
+        <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A method to join strings.</label>
+        <label for="var_info"><input type="radio" name="variable" value="1" id="var_info" />Allows you to store information so it can be reused throughout the program</label>
+        <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Allows you to make a decision based on a condition.</label>
+        
+        <h2>Which is the best description of the substring method?</h2>
+        <label for="sub_string"><input type="radio" name="sub" value="1" id="sub_string"/>Identifies a portion of a string.</label>
+        <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>A method to join strings.</label>
+        <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Allows you to store information so it can be reused throughout the program</label>
+        <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Allows you to make a decision based on a condition.</label>
+        
+        <h2>Which is the best description of concatenation?</h2>
+        <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion of a string.</label>
+        <label for="cat_join"><input type="radio" name="con" value="1" id="cat_join" />A method to join strings.</label>
+        <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store information so it can be reused throughout the program</label>
+        <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to make a decision based on a condition.</label>
+        
+        <h2>Which is the best description of an if statement?</h2>
+        <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label>
+        <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label>
+        <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
+        <label for="if_condition"><input type="radio" name="ifstate"  value="1" id="if_condition" />Allows you to make a decision based on a condition.</label>
+        
+        <button type="submit" value="Submit">Submit</button>
+        
+        </form>
+  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>      
+<script src="quiz.js"></script>    
+ 
+</body>
+</html>
