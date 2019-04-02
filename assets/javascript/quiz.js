@@ -72,12 +72,12 @@
     $("#endQuiz").show();
 
 
-    variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
-    sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
-    con = parseInt(document.querySelector('input[name = "con"]:checked').value);
-    ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+    question1 = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+    question2 = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+    question3 = parseInt(document.querySelector('input[name = "con"]:checked').value);
+    question4 = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
     
-    result = variable + sub + con + ifstate;
+    result = question1 + question2 + question3 + question4;
     console.log(result);
     
    // document.getElementById("grade").innerHTML = result;
@@ -97,6 +97,4 @@
 //this ends the submit function}
 //endstartQuiz
 startQuiz();
-
-
 }
