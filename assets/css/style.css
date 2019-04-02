@@ -3,25 +3,16 @@ body {
 background-color: lightblue;
 font-family: Helvetica;
 }
-
-#main {
-width: 80%;
-max-width: 950px;
-border: 1px gray solid;
-margin: auto;
-padding: 10px;
-background-color: white;
-border-radius: 10px;
-}
-
-#header {
+ 
+#headerTag {
 margin-top: 0;
 border: 2px solid black;
 padding: 5px;
-height: 250px;
+width:150px;
+height: 120px;
+text-align: center;
 background: beige;
-background-image: url("code.jpg");
-color: white;
+color: black;
 }
  
 label {
